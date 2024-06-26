@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #3c96c3;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background: #367aba;
+  border:3px solid #16e37a;
+}
+.title p{
+  font-size: 50px;
+  font-weight: bold;
+  color: #769dea;
+}
+.subtitle p{
+  font-size: 30px;
+  font-weight: bold;
+  color: #94b8ff;
+  font-family: comic sands ms, Arial, sans-serif;
+}
+.content{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #43c771;
+  border: 3px solid #66f0d9;
+  font-size: 22px;
+  font-weight: bolder;
+  text-align: center;
+  color: #223368;
+}
+.content img{
+  height: 300px;
+  width: 500px;
+  margin: 30;
+}
+.final img{
+  height: 300px;
+}
